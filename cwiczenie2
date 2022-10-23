@@ -1,0 +1,28 @@
+/* Cwiczenie 4 */
+SELECT COUNT(p.f_codedesc) FROM cwiczenie1.popp as p, cwiczenie1.majrivers as m WHERE p.f_codedesc = 'Building' AND ST_Distance(p.geom, m.geom) < 1000
+SELECT p.* INTO tableB FROM cwiczenie1.popp as p, cwiczenie1.majrivers as m WHERE p.f_codedesc = 'Building' AND ST_Distance(p.geom, m.geom) < 1000
+SELECT * FROM tableB
+/* Cwiczenie 5 */
+CREATE TABLE cwiczenie1.airportsNew AS SELECT name, geom, elev FROM cwiczenie1.airports
+SELECT * FROM cwiczenie1.airportsNew
+SELECT ST_X(geom) as wschod, name FROM cwiczenie1.airportsNew ORDER BY ST_X(geom) DESC LIMIT 1
+SELECT ST_X(geom) as zachod, name FROM cwiczenie1.airportsNew ORDER BY ST_X(geom) ASC LIMIT 1
+
+/* Cwiczenie 5B */
+INSERT INTO cwiczenie1.airportsNew (name, elev, geom) VALUES
+(
+	'airportB', 412, (SELECT ST_Centroid(
+		`				ST_ShortestLine(
+							(SELECT geom FROM cwiczenie1.airportsNew WHERE name = 'ATKA'),
+								(SELECT geom FROM cwiczenie1.airportsNew WHERE name = 'ANNETTE ISLAND'))))
+	);
+SELECT * FROM cwiczenie1.airportsNew ORDER BY name ASC
+
+/* Cwiczenie 6 */
+SELECT ST_Area(ST_Buffer(ST_ShortestLine(l.geom,a.geom),1000)) FROM cwiczenie1.lakes l, cwiczenie1.airportsNew a 
+WHERE l.names = 'Iliamna Lake' AND a.name = 'AMBLER'
+								
+/* Cwiczenie 7 */
+SELECT SUM(ST_Area(trees.geom)), trees.vegdesc FROM cwiczenie1.trees, cwiczenie1.tundra, cwiczenie1.swamp 
+WHERE ST_Contains(trees.geom,tundra.geom) OR ST_Contains(trees.geom,swamp.geom)
+GROUP BY trees.vegdesc
