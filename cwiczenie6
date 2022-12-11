@@ -84,9 +84,20 @@ CREATE INDEX idx_porto_ndvi2_rast_gist ON schema_name.porto_ndvi2 USING gist (ST
 
 SELECT AddRasterConstraints('schema_name'::name,'porto_ndvi2'::name,'rast'::name);
 
+SELECT ST_AsTiff(ST_Union(rast))FROM schema_name.porto_ndvi;
 
+SELECT ST_AsGDALRaster(ST_Union(rast), 'GTiff', ARRAY['COMPRESS=DEFLATE','PREDICTOR=2', 'PZLEVEL=9'])FROM schema_name.porto_ndvi;
 
+SELECT ST_GDALDrivers();
 
+CREATE TABLE tmp_out AS SELECT lo_from_bytea(0,ST_AsGDALRaster(ST_Union(rast), 'GTiff', ARRAY['COMPRESS=DEFLATE','PREDICTOR=2', 'PZLEVEL=9'])) AS loid FROM schema_name.porto_ndvi
+----------------------------------------------
+SELECT lo_export(loid, 'C:\BAZY_DANYCH\rasters\myraster.tiff') --Save the file in a placewhere the user postgres have access. In windows a flash drive usualy worksfine. 
+FROM tmp_out;
+----------------------------------------------
+SELECT lo_unlink(loid)FROM tmp_out; --> Delete the large object.
+
+gdal_translate -co COMPRESS=DEFLATE -co PREDICTOR=2 -co ZLEVEL=9PG:"host=localhost port=5432 dbname=postgis_raster user=postgrespassword=postgis schema=schema_name table=porto_ndvi mode=2"porto_ndvi.tiff
 
 
 
