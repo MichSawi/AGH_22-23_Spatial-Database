@@ -1,0 +1,499 @@
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.1.0 (20221202 - Build 22776 - WIN64)
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Student Edition (node locked-crc)
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Serial Number: 2OP7SC3KRBFWGVUQEKKE
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Temporary License: 30 days left.
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-IOSUJ0RE
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\bazy_danych_2\cwiczenie9/'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'fme_zadanie2.fmw'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.1.0'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19044)
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|System Status: 20.19 GB of disk space available in the FME temporary folder (C:\Users\micha\AppData\Local\Temp\wbrun_1673205974525_22376\fmetmp_3)
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|System Status: 7.37 GB of physical memory available
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|System Status: 29.49 GB of virtual memory available
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|START - ProcessID: 13620, peak process memory usage: 72676 kB, current process memory usage: 72676 kB
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/bazy_danych_2/cwiczenie9\wb-xlate-1673206071063_22376' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `61781' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `61776'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\micha\AppData\Roaming\Safe Software\FME\'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython310\python310.dll' with PYTHONHOME `C:\Program Files\FME\fmepython310'
+2023-01-08 20:28:11|   0.0|  0.0|INFORM|Python version 3.10 loaded successfully
+2023-01-08 20:28:11|   0.1|  0.1|INFORM|FME_BEGIN_PYTHON: evaluating python script from string...
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME_BEGIN_PYTHON: python script execution complete.
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\micha\Documents\FME\Formats
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\micha\AppData\Roaming\Safe Software\FME\Packages\22776-win64\transformers;C:\Program Files\FME\transformers;C:\Users\micha\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\micha\Documents\FME\CoordinateSystems
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\micha\Documents\FME\CoordinateSystemExceptions
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\micha\Documents\FME\CoordinateSystemGridOverrides
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\micha\Documents\FME\CsmapTransformationExceptions
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\micha\Documents\FME\TransformerCategories
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\bazy_danych_2\cwiczenie9'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\micha\AppData\Local\Temp\wbrun_1673205974525_22376\fmetmp_3', set from environment variable `FME_TEMP'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\micha\AppData\Local\Temp'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 22.12 GB
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 16.59 GB
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Creating writer for format: 
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Creating reader for format: 
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SHAPEFILE Reader with keyword SHAPEFILE_1
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SHAPEFILE Reader with keyword SHAPEFILE_2
+2023-01-08 20:28:13|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-01-08 20:28:13|   0.2|  0.1|INFORM|Creating reader for format: Esri Shapefile
+2023-01-08 20:28:13|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2023-01-08 20:28:13|   0.2|  0.0|INFORM|Loaded module 'SHAPEFILE' from file 'C:\Program Files\FME\plugins/shapefile_dbase.dll'
+2023-01-08 20:28:13|   0.2|  0.0|INFORM|FME API version of module 'shapefile_dbase' matches current internal version (4.0 20220615)
+2023-01-08 20:28:13|   0.2|  0.0|INFORM|SHAPEFILE reader: Opening dataset 'C:\bazy_danych_2\cwiczenie9\Powiaty.shp'
+2023-01-08 20:28:14|   0.5|  0.3|INFORM|The OGC definition of the FME coordinate system 'ETRS89.PolandCS92' is 'PROJCS["ETRS_1989_Poland_CS92",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",-5300000.0],PARAMETER["Central_Meridian",19.0],PARAMETER["Scale_Factor",0.9993],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'TextEncoderFactory' from file 'C:\Program Files\FME\plugins/TextEncoderFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'HTTPFactory' from file 'C:\Program Files\FME\plugins/HTTPFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'StringReplacerFactory' from file 'C:\Program Files\FME\plugins/StringReplacerFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins/AttributeKeeperFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'XFMapFactory' from file 'C:\Program Files\FME\plugins/XFMapFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'XFMapFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'StatisticsCalculatorFactory' from file 'C:\Program Files\FME\plugins/StatisticsCalculatorFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'StatisticsCalculatorFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): The following statistics will be calculated 'date{3}.max'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'JSONQueryFactory' from file 'C:\Program Files\FME\plugins/JSONQueryFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\Program Files\FME\plugins/QueryFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|SentinelDownloader_StatisticsCalculator (StatisticsCalculatorFactory): The following statistics will be calculated '_count'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'RasterProperties_func' from file 'C:\Program Files\FME\plugins/RasterProperties_func.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'RasterProperties_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'RasterNodata_func' from file 'C:\Program Files\FME\plugins/RasterNodata_func.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'RasterNodata_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'RasterEvaluationFactory' from file 'C:\Program Files\FME\plugins/RasterEvaluationFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'RasterEvaluationFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'RasterPaletteAttributes_func' from file 'C:\Program Files\FME\plugins/RasterPaletteAttributes_func.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'RasterPaletteAttributes_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'ClipperFactory' from file 'C:\Program Files\FME\plugins/ClipperFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'ClipperFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'RasterStatisticsFactory' from file 'C:\Program Files\FME\plugins/RasterStatisticsFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'RasterStatisticsFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader SHAPEFILE_1[SHAPEFILE] set to `ETRS89.PolandCS92' as read from input data
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Coordinate System `ETRS89.PolandCS92' parameters: CS_NAME=`ETRS89.PolandCS92' DESC_NM=`ETRS89 / Poland CS92' DT_NAME=`ETRS89/01' EPSG_QD=`-1' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`56.65' MAX_LNG=`25.416666666666668' MIN_LAT=`48.333333333333336' MIN_LNG=`12.883333333333333' PARM1=`19' PROJ=`TM' QUAD=`1' SCL_RED=`0.9993' SOURCE=`EPSG, V6.3, 2180 [Medium and small scale topographic mappi]' UNIT=`Meter' X_OFF=`500000' Y_OFF=`-5300000' ZERO_X=`0.0001' ZERO_Y=`0.0001'
+2023-01-08 20:28:14|   0.5|  0.0|INFORM|Powiaty Feature Recorder -1 2147549186 (RecorderFactory): Splitting bulk features into individual features
+2023-01-08 20:28:14|   0.7|  0.2|INFORM|Creating reader for format: Esri Shapefile
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|SHAPEFILE reader: Opening dataset 'C:\bazy_danych_2\cwiczenie9\Powiaty.shp'
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader SHAPEFILE_2[SHAPEFILE] set to `ETRS89.PolandCS92' as read from input data
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|Coordinate System `ETRS89.PolandCS92' parameters: CS_NAME=`ETRS89.PolandCS92' DESC_NM=`ETRS89 / Poland CS92' DT_NAME=`ETRS89/01' EPSG_QD=`-1' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`56.65' MAX_LNG=`25.416666666666668' MIN_LAT=`48.333333333333336' MIN_LNG=`12.883333333333333' PARM1=`19' PROJ=`TM' QUAD=`1' SCL_RED=`0.9993' SOURCE=`EPSG, V6.3, 2180 [Medium and small scale topographic mappi]' UNIT=`Meter' X_OFF=`500000' Y_OFF=`-5300000' ZERO_X=`0.0001' ZERO_Y=`0.0001'
+2023-01-08 20:28:14|   0.7|  0.0|INFORM|Powiaty Feature Recorder -1 2147549231 (RecorderFactory): Splitting bulk features into individual features
+2023-01-08 20:28:14|   0.8|  0.1|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'ETRS89.PolandCS92' -> 'EPSG:4326', and is not guaranteed to remain the same in future releases of FME
+2023-01-08 20:28:15|   0.8|  0.0|INFORM|Reprojector: Using transformation `ETRS89/01_to_WGS84,Forward(Geocentric)' when reprojecting from ETRS89.PolandCS92 to EPSG:4326
+2023-01-08 20:28:16|   2.4|  1.6|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:16|   2.4|  0.0|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5507 bytes, DNS lookup time: 44 ms, total transfer time: 710 ms
+2023-01-08 20:28:16|   3.0|  0.6|INFORM|MULTI_READER(MULTI_READER): Done reading 760 features from 2 readers
+2023-01-08 20:28:16|   3.0|  0.0|INFORM|Emptying factory pipeline
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 760 input feature(s), wrote 760 output feature(s): 760 matched merge filters, 760 were routed to output, 0 could not be routed.
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Powiaty_SHAPEFILE_2 Splitter (TeeFactory): Cloned 380 input feature(s) into 380 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Powiaty_SHAPEFILE_1 Splitter (TeeFactory): Cloned 380 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Reprojector_2 (TeeFactory): Cloned 380 input feature(s) into 380 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Tester (TestFactory): Tested 380 input feature(s) -- 1 feature(s) passed and 379 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |Tester PASSED Splitter (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader Initiator Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_Initiator1673206089 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_GeometryFilter_InputPassThrough (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_GeometryFilter_RouterPrepper (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_GeometryFilter_Router (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_Reprojector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTZDEFAULT (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTMODE (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_LIST (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_BoundingBoxReplacer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTZDEFAULT (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTMODE (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_LIST (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:16|   3.0|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:16|   3.3|  0.3|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:16|   3.3|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: HTTP Download: received 4 bytes
+2023-01-08 20:28:16|   3.3|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 245 ms
+2023-01-08 20:28:16|   3.4|  0.1|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 5 bytes
+2023-01-08 20:28:16|   3.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP Download: received 5 bytes
+2023-01-08 20:28:16|   3.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5 bytes, DNS lookup time: 2 ms, total transfer time: 293 ms
+2023-01-08 20:28:16|   3.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [4]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:16|   3.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [4]: HTTP Download: received 4 bytes
+2023-01-08 20:28:16|   3.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [4]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 290 ms
+2023-01-08 20:28:17|   3.4|  0.0|WARN  |SentinelDownloader_Logger_4: Reqeusted data is NOT ONLINE. Sentinel's Long Time Archive (LTA) will be triggered now. If successfull, data will be available within hours.
+For further information, see https://scihub.copernicus.eu/userguide/LongTermArchive 
+2023-01-08 20:28:17|   4.4|  1.0|INFORM|SentinelDownloader_HTTPCaller_2 (HTTPFactory): [5]: HTTP transfer summary (scihub.copernicus.eu): status code: 202, download size: 0 bytes, DNS lookup time: 2 ms, total transfer time: 887 ms
+2023-01-08 20:28:18|   4.4|  0.0|WARN  |SentinelDownloader_Logger_2: Retrieval of offline data is triggered successfully. Please try again in a few hours.
+2023-01-08 20:28:18|   4.4|  0.0|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:18|   4.9|  0.5|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:18|   4.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [6]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 20 bytes
+2023-01-08 20:28:18|   4.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [6]: HTTP Download: received 20 bytes
+2023-01-08 20:28:18|   4.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [6]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 20 bytes, DNS lookup time: 2 ms, total transfer time: 401 ms
+2023-01-08 20:28:18|   5.1|  0.2|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed
+2023-01-08 20:28:18|   5.1|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): An error occurred while accessing the URL '('GRANULE')/Nodes?$format=json'
+2023-01-08 20:28:18|   5.6|  0.5|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [10]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [10]: HTTP Download: received 4 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [10]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 137 ms
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [8]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 5 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [8]: HTTP Download: received 5 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [8]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5 bytes, DNS lookup time: 0 ms, total transfer time: 151 ms
+2023-01-08 20:28:18|   5.6|  0.0|WARN  |SentinelDownloader_Logger_4: Reqeusted data is NOT ONLINE. Sentinel's Long Time Archive (LTA) will be triggered now. If successfull, data will be available within hours.
+For further information, see https://scihub.copernicus.eu/userguide/LongTermArchive 
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [9]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 5 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [9]: HTTP Download: received 5 bytes
+2023-01-08 20:28:18|   5.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [9]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5 bytes, DNS lookup time: 0 ms, total transfer time: 153 ms
+2023-01-08 20:28:22|  12.7|  7.1|INFORM|SentinelDownloader_HTTPCaller_2 (HTTPFactory): [11]: HTTP transfer summary (scihub.copernicus.eu): status code: 202, download size: 0 bytes, DNS lookup time: 0 ms, total transfer time: 3549 ms
+2023-01-08 20:28:22|  12.7|  0.0|WARN  |SentinelDownloader_Logger_2: Retrieval of offline data is triggered successfully. Please try again in a few hours.
+2023-01-08 20:28:22|  12.7|  0.0|WARN  |SentinelDownloader_Logger_4: Reqeusted data is NOT ONLINE. Sentinel's Long Time Archive (LTA) will be triggered now. If successfull, data will be available within hours.
+For further information, see https://scihub.copernicus.eu/userguide/LongTermArchive 
+2023-01-08 20:28:24|  17.5|  4.8|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [7]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:24|  17.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [7]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 396 bytes, DNS lookup time: 0 ms, total transfer time: 6691 ms
+2023-01-08 20:28:25|  18.5|  1.0|INFORM|SentinelDownloader_HTTPCaller_2 (HTTPFactory): [12]: HTTP transfer summary (scihub.copernicus.eu): status code: 202, download size: 0 bytes, DNS lookup time: 0 ms, total transfer time: 3422 ms
+2023-01-08 20:28:25|  18.5|  0.0|WARN  |SentinelDownloader_Logger_2: Retrieval of offline data is triggered successfully. Please try again in a few hours.
+2023-01-08 20:28:25|  18.5|  0.0|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:29|  28.0|  9.5|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [15]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:29|  28.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [15]: HTTP Download: received 4 bytes
+2023-01-08 20:28:29|  28.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [15]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 3146 ms
+2023-01-08 20:28:29|  28.0|  0.0|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:29|  28.1|  0.1|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [17]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 5 bytes
+2023-01-08 20:28:29|  28.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [17]: HTTP Download: received 5 bytes
+2023-01-08 20:28:29|  28.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [17]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5 bytes, DNS lookup time: 0 ms, total transfer time: 3208 ms
+2023-01-08 20:28:29|  28.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [16]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 5 bytes
+2023-01-08 20:28:29|  28.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [16]: HTTP Download: received 5 bytes
+2023-01-08 20:28:29|  28.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [16]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5 bytes, DNS lookup time: 0 ms, total transfer time: 3235 ms
+2023-01-08 20:28:29|  29.1|  1.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [13]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 20 bytes
+2023-01-08 20:28:29|  29.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [13]: HTTP Download: received 20 bytes
+2023-01-08 20:28:29|  29.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [13]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 20 bytes, DNS lookup time: 0 ms, total transfer time: 3671 ms
+2023-01-08 20:28:29|  29.1|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed
+2023-01-08 20:28:32|  34.9|  5.8|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [18]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 20 bytes
+2023-01-08 20:28:32|  34.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [18]: HTTP Download: received 20 bytes
+2023-01-08 20:28:32|  34.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [18]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 20 bytes, DNS lookup time: 0 ms, total transfer time: 3426 ms
+2023-01-08 20:28:32|  34.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [14]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:32|  34.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [14]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 409 bytes, DNS lookup time: 3 ms, total transfer time: 6676 ms
+2023-01-08 20:28:32|  35.0|  0.1|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): An error occurred while accessing the URL '('GRANULE')/Nodes?$format=json'
+2023-01-08 20:28:32|  35.0|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed
+2023-01-08 20:28:32|  35.0|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): An error occurred while accessing the URL '('GRANULE')/Nodes?$format=json'
+2023-01-08 20:28:32|  35.0|  0.0|WARN  |SentinelDownloader_Logger_4: Reqeusted data is NOT ONLINE. Sentinel's Long Time Archive (LTA) will be triggered now. If successfull, data will be available within hours.
+For further information, see https://scihub.copernicus.eu/userguide/LongTermArchive 
+2023-01-08 20:28:36|  41.8|  6.8|INFORM|SentinelDownloader_HTTPCaller_2 (HTTPFactory): [20]: HTTP transfer summary (scihub.copernicus.eu): status code: 202, download size: 0 bytes, DNS lookup time: 0 ms, total transfer time: 3439 ms
+2023-01-08 20:28:36|  41.9|  0.1|WARN  |SentinelDownloader_Logger_2: Retrieval of offline data is triggered successfully. Please try again in a few hours.
+2023-01-08 20:28:36|  41.9|  0.0|WARN  |SentinelDownloader_Logger_4: Reqeusted data is NOT ONLINE. Sentinel's Long Time Archive (LTA) will be triggered now. If successfull, data will be available within hours.
+For further information, see https://scihub.copernicus.eu/userguide/LongTermArchive 
+2023-01-08 20:28:36|  42.6|  0.7|INFORM|SentinelDownloader_HTTPCaller_2 (HTTPFactory): [21]: HTTP transfer summary (scihub.copernicus.eu): status code: 202, download size: 0 bytes, DNS lookup time: 0 ms, total transfer time: 377 ms
+2023-01-08 20:28:36|  42.6|  0.0|WARN  |SentinelDownloader_Logger_2: Retrieval of offline data is triggered successfully. Please try again in a few hours.
+2023-01-08 20:28:36|  42.7|  0.1|STATS |SentinelDownloader_TestFilter_INPUT (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_TestFilter (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_Junction_5 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:36|  42.7|  0.0|INFORM|SentinelDownloader_XMLFragmenter (XFMapFactory): Total Results: 10 Mapped Feature(s), 1 Input Feature(s), and 0 Invalid input Feature(s)
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_Tester_2 (TestFactory): Tested 10 input feature(s) -- 0 feature(s) passed and 10 feature(s) failed
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_Sorter (SortFactory): Finished sorting a total of 0 features.
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_DateTimeConverter_1 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_DateTimeConverter_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:36|  42.7|  0.0|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): Processing complete
+2023-01-08 20:28:36|  42.7|  0.0|STATS |SentinelDownloader_Tester_3 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:36|  43.0|  0.3|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [22]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:36|  43.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [22]: HTTP Download: received 4 bytes
+2023-01-08 20:28:36|  43.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [22]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 152 ms
+2023-01-08 20:28:36|  43.0|  0.0|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:36|  43.0|  0.0|STATS |SentinelDownloader_Tester_7 (TestFactory): Tested 10 input feature(s) -- 5 feature(s) passed and 5 feature(s) failed
+2023-01-08 20:28:36|  43.0|  0.0|STATS |SentinelDownloader_Logger_5_Logger (TeeFactory): Cloned 5 input feature(s) into 5 output feature(s)
+2023-01-08 20:28:36|  43.0|  0.0|STATS |SentinelDownloader_Logger_5 LOGGED Splitter (TeeFactory): Cloned 5 input feature(s) into 10 output feature(s)
+2023-01-08 20:28:38|  47.0|  4.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [19]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:38|  47.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [19]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 515 bytes, DNS lookup time: 2 ms, total transfer time: 5992 ms
+2023-01-08 20:28:40|  48.4|  1.4|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [23]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 20 bytes
+2023-01-08 20:28:40|  48.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [23]: HTTP Download: received 20 bytes
+2023-01-08 20:28:40|  48.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [23]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 20 bytes, DNS lookup time: 0 ms, total transfer time: 3378 ms
+2023-01-08 20:28:40|  48.4|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed
+2023-01-08 20:28:40|  48.4|  0.0|ERROR |SentinelDownloader_HTTPCaller_7 (HTTPFactory): An error occurred while accessing the URL '('GRANULE')/Nodes?$format=json'
+2023-01-08 20:28:40|  48.4|  0.0|STATS |SentinelDownloader_Junction_3 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2023-01-08 20:28:40|  48.4|  0.0|STATS |SentinelDownloader_AttributeExposer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:43|  51.9|  3.5|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [24]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:43|  51.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [24]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 760 bytes, DNS lookup time: 2 ms, total transfer time: 3487 ms
+2023-01-08 20:28:47|  55.7|  3.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 84.83 MB
+2023-01-08 20:28:48|  57.0|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 10.01 MB
+2023-01-08 20:28:48|  57.1|  0.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 88.51 MB
+2023-01-08 20:28:50|  58.3|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 20.02 MB
+2023-01-08 20:28:51|  59.6|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 30.03 MB
+2023-01-08 20:28:52|  61.0|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 40.03 MB
+2023-01-08 20:28:53|  61.9|  0.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 10.01 MB
+2023-01-08 20:28:54|  62.5|  0.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 50.04 MB
+2023-01-08 20:28:55|  64.0|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 60.05 MB
+2023-01-08 20:28:57|  65.6|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 70.06 MB
+2023-01-08 20:28:57|  65.9|  0.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 20.02 MB
+2023-01-08 20:28:58|  66.9|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 80.06 MB
+2023-01-08 20:28:59|  67.9|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP Download: received 84.83 MB
+2023-01-08 20:28:59|  67.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [25]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 88949592 bytes, DNS lookup time: 1 ms, total transfer time: 15976 ms
+2023-01-08 20:28:59|  68.2|  0.3|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:28:59|  68.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:29:00|  68.3|  0.1|INFORM|Loaded module 'JPEG2000' from file 'C:\Program Files\FME\plugins/gdal/GDAL.dll'
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|FME API version of module 'gdal/GDAL' matches current internal version (4.0 20220615)
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20220626T095039_B02_10m.jp2'
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:29:00|  68.3|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_B02_10m.jp2'
+2023-01-08 20:29:00|  68.5|  0.2|INFORM|The EPSG number of the FME coordinate system 'UTM84-34N' is '32634'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_B02_10m.jp2'
+2023-01-08 20:29:00|  68.5|  0.0|INFORM|Merged 1 schema features read from 1 datasets into 1 resulting feature types
+2023-01-08 20:29:01|  74.2|  5.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 30.02 MB
+2023-01-08 20:29:03|  84.3| 10.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 40.03 MB
+2023-01-08 20:29:05|  90.6|  6.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 50.04 MB
+2023-01-08 20:29:07|  94.9|  4.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 60.05 MB
+2023-01-08 20:29:08|  97.6|  2.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 70.05 MB
+2023-01-08 20:29:09| 100.8|  3.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 80.06 MB
+2023-01-08 20:29:09| 101.3|  0.5|INFORM|FFS writer: Completed 23.15% of intermediate processing
+2023-01-08 20:29:11| 104.9|  3.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP Download: received 88.51 MB
+2023-01-08 20:29:11| 104.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [26]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 92812840 bytes, DNS lookup time: 1 ms, total transfer time: 27458 ms
+2023-01-08 20:29:14| 111.5|  6.6|INFORM|FFS writer: Completed 46.64% of intermediate processing
+2023-01-08 20:29:19| 120.3|  8.8|INFORM|FFS writer: Completed 70.95% of intermediate processing
+2023-01-08 20:29:24| 128.9|  8.6|INFORM|FFS writer: Completed 94.12% of intermediate processing
+2023-01-08 20:29:25| 130.6|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:29:30| 139.4|  8.8|INFORM|FFS writer: Completed 24.09% of intermediate processing
+2023-01-08 20:29:35| 147.9|  8.5|INFORM|FFS writer: Completed 45.87% of intermediate processing
+2023-01-08 20:29:40| 154.9|  7.0|INFORM|FFS writer: Completed 62% of intermediate processing
+2023-01-08 20:29:45| 163.4|  8.5|INFORM|FFS writer: Completed 84.88% of intermediate processing
+2023-01-08 20:29:48| 168.4|  5.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:29:48| 168.6|  0.2|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20220626T095039_B03_10m.jp2'
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:29:48| 168.6|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_B03_10m.jp2'
+2023-01-08 20:29:49| 168.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_4[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:29:49| 168.6|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:29:58| 194.0| 25.4|INFORM|FFS writer: Completed 23.81% of intermediate processing
+2023-01-08 20:30:03| 202.8|  8.8|INFORM|FFS writer: Completed 47.41% of intermediate processing
+2023-01-08 20:30:08| 211.1|  8.3|INFORM|FFS writer: Completed 71.22% of intermediate processing
+2023-01-08 20:30:13| 220.2|  9.1|INFORM|FFS writer: Completed 95.12% of intermediate processing
+2023-01-08 20:30:14| 221.6|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:30:19| 230.2|  8.6|INFORM|FFS writer: Completed 24.01% of intermediate processing
+2023-01-08 20:30:24| 239.1|  8.9|INFORM|FFS writer: Completed 47.5% of intermediate processing
+2023-01-08 20:30:29| 248.8|  9.7|INFORM|FFS writer: Completed 71.68% of intermediate processing
+2023-01-08 20:30:34| 257.4|  8.6|INFORM|FFS writer: Completed 95.69% of intermediate processing
+2023-01-08 20:30:34| 258.7|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:30:38| 262.6|  3.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 89.08 MB
+2023-01-08 20:30:39| 263.6|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 106.75 MB
+2023-01-08 20:30:40| 263.8|  0.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 10.02 MB
+2023-01-08 20:30:41| 265.5|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 20.03 MB
+2023-01-08 20:30:43| 266.8|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 30.03 MB
+2023-01-08 20:30:43| 267.0|  0.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 10.01 MB
+2023-01-08 20:30:44| 268.7|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 40.04 MB
+2023-01-08 20:30:45| 269.7|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 20.02 MB
+2023-01-08 20:30:46| 270.4|  0.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 50.05 MB
+2023-01-08 20:30:48| 272.4|  2.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 60.06 MB
+2023-01-08 20:30:48| 272.6|  0.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 30.03 MB
+2023-01-08 20:30:50| 274.2|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 70.06 MB
+2023-01-08 20:30:51| 275.5|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 40.03 MB
+2023-01-08 20:30:52| 276.4|  0.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 80.07 MB
+2023-01-08 20:30:54| 278.2|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP Download: received 89.08 MB
+2023-01-08 20:30:54| 278.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [27]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 93407542 bytes, DNS lookup time: 33 ms, total transfer time: 19136 ms
+2023-01-08 20:30:54| 278.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 50.04 MB
+2023-01-08 20:30:54| 278.4|  0.2|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20220626T095039_B04_10m.jp2'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_B04_10m.jp2'
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_6[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:30:54| 278.4|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:30:56| 289.3| 10.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 60.05 MB
+2023-01-08 20:30:58| 299.8| 10.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 70.06 MB
+2023-01-08 20:31:01| 306.9|  7.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 80.06 MB
+2023-01-08 20:31:03| 312.1|  5.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 90.07 MB
+2023-01-08 20:31:03| 312.5|  0.4|INFORM|FFS writer: Completed 22.77% of intermediate processing
+2023-01-08 20:31:05| 318.3|  5.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 100.08 MB
+2023-01-08 20:31:07| 322.0|  3.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP Download: received 106.75 MB
+2023-01-08 20:31:07| 322.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [28]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 111938129 bytes, DNS lookup time: 26 ms, total transfer time: 32162 ms
+2023-01-08 20:31:08| 324.1|  2.1|INFORM|FFS writer: Completed 44.67% of intermediate processing
+2023-01-08 20:31:13| 332.4|  8.3|INFORM|FFS writer: Completed 68.36% of intermediate processing
+2023-01-08 20:31:18| 341.0|  8.6|INFORM|FFS writer: Completed 91.96% of intermediate processing
+2023-01-08 20:31:20| 343.7|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:31:25| 351.6|  7.9|INFORM|FFS writer: Completed 22.77% of intermediate processing
+2023-01-08 20:31:30| 360.0|  8.4|INFORM|FFS writer: Completed 46.14% of intermediate processing
+2023-01-08 20:31:35| 368.6|  8.6|INFORM|FFS writer: Completed 69.68% of intermediate processing
+2023-01-08 20:31:40| 377.2|  8.6|INFORM|FFS writer: Completed 92.75% of intermediate processing
+2023-01-08 20:31:41| 379.5|  2.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:31:46| 388.7|  9.2|INFORM|FFS writer: Completed 23.72% of intermediate processing
+2023-01-08 20:31:51| 397.6|  8.9|INFORM|FFS writer: Completed 47.05% of intermediate processing
+2023-01-08 20:31:56| 406.0|  8.4|INFORM|FFS writer: Completed 70.75% of intermediate processing
+2023-01-08 20:32:01| 414.6|  8.6|INFORM|FFS writer: Completed 94.49% of intermediate processing
+2023-01-08 20:32:02| 416.4|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:32:02| 416.4|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'UTM84-34N' to destination coordinate system 'EPSG:4326'
+2023-01-08 20:32:02| 416.4|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (10980, 10980) to (11072, 11093)
+2023-01-08 20:32:02| 416.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (10, 10) to (0.00013969988958387357, 8.993492937670054e-5)
+2023-01-08 20:32:02| 416.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (399960, 5490240), (509760, 5600040) to (19.588086136628696, 49.55653257290545), (21.137777011782607, 50.55229211096428)
+2023-01-08 20:32:07| 422.1|  5.7|INFORM|FFS writer: Completed 53.61% of intermediate processing
+2023-01-08 20:32:11| 427.0|  4.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:32:11| 427.1|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20220626T095039_B08_10m.jp2'
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:32:11| 427.1|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_B08_10m.jp2'
+2023-01-08 20:32:11| 427.2|  0.1|INFORM|FME Configuration: Source coordinate system for reader R_8[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:32:11| 427.2|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:32:16| 441.1| 13.9|INFORM|FFS writer: Completed 63.06% of intermediate processing
+2023-01-08 20:32:18| 447.0|  5.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:32:23| 455.3|  8.3|INFORM|FFS writer: Completed 19.18% of intermediate processing
+2023-01-08 20:32:28| 463.9|  8.6|INFORM|FFS writer: Completed 37.85% of intermediate processing
+2023-01-08 20:32:33| 472.0|  8.1|INFORM|FFS writer: Completed 55.71% of intermediate processing
+2023-01-08 20:32:38| 480.0|  8.0|INFORM|FFS writer: Completed 73.18% of intermediate processing
+2023-01-08 20:32:43| 488.0|  8.0|INFORM|FFS writer: Completed 90.73% of intermediate processing
+2023-01-08 20:32:46| 491.8|  3.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:32:51| 499.3|  7.5|INFORM|FFS writer: Completed 16.43% of intermediate processing
+2023-01-08 20:32:56| 507.3|  8.0|INFORM|FFS writer: Completed 33.75% of intermediate processing
+2023-01-08 20:33:01| 514.9|  7.6|INFORM|FFS writer: Completed 52.86% of intermediate processing
+2023-01-08 20:33:06| 523.1|  8.2|INFORM|FFS writer: Completed 72.16% of intermediate processing
+2023-01-08 20:33:11| 531.9|  8.8|INFORM|FFS writer: Completed 94.57% of intermediate processing
+2023-01-08 20:33:12| 533.7|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:33:17| 541.8|  8.1|INFORM|FFS writer: Completed 19.78% of intermediate processing
+2023-01-08 20:33:22| 550.2|  8.4|INFORM|FFS writer: Completed 39.85% of intermediate processing
+2023-01-08 20:33:27| 558.2|  8.0|INFORM|FFS writer: Completed 62.23% of intermediate processing
+2023-01-08 20:33:32| 566.6|  8.4|INFORM|FFS writer: Completed 83.7% of intermediate processing
+2023-01-08 20:33:35| 572.1|  5.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:33:35| 572.1|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'UTM84-34N' to destination coordinate system 'EPSG:4326'
+2023-01-08 20:33:35| 572.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (10980, 10980) to (11072, 11093)
+2023-01-08 20:33:35| 572.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (10, 10) to (0.00013969988958387357, 8.993492937670054e-5)
+2023-01-08 20:33:35| 572.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (399960, 5490240), (509760, 5600040) to (19.588086136628696, 49.55653257290545), (21.137777011782607, 50.55229211096428)
+2023-01-08 20:33:40| 577.9|  5.8|INFORM|FFS writer: Completed 50.87% of intermediate processing
+2023-01-08 20:33:45| 583.1|  5.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:33:50| 588.1|  5.0|INFORM|FFS writer: Completed 23.13% of intermediate processing
+2023-01-08 20:33:55| 593.3|  5.2|INFORM|FFS writer: Completed 48.56% of intermediate processing
+2023-01-08 20:34:00| 598.4|  5.1|INFORM|FFS writer: Completed 75.64% of intermediate processing
+2023-01-08 20:34:05| 603.2|  4.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:34:05| 603.3|  0.1|STATS |SentinelDownloader_Junction_4 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2023-01-08 20:34:05| 603.3|  0.0|STATS |SentinelDownloader_Junction_9 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:34:05| 603.4|  0.1|STATS |SentinelDownloader_Junction_10 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_Tester_8 (TestFactory): Tested 3 input feature(s) -- 3 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_TestFilter_2_INPUT (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_TestFilter_2 (TestFactory): Tested 3 input feature(s) -- 1 feature(s) passed and 2 feature(s) failed
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_Tester_4 (TestFactory): Tested 7 input feature(s) -- 5 feature(s) passed and 2 feature(s) failed
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_Junction_7 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_Junction_8 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:34:05| 603.4|  0.0|STATS |SentinelDownloader_TestFilter_3_INPUT (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:34:05| 603.5|  0.1|STATS |SentinelDownloader_TestFilter_3 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:34:08| 606.1|  2.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 124.74 MB
+2023-01-08 20:34:09| 607.3|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 10.00 MB
+2023-01-08 20:34:10| 608.3|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 20.01 MB
+2023-01-08 20:34:11| 609.4|  1.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 30.02 MB
+2023-01-08 20:34:12| 610.9|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 40.03 MB
+2023-01-08 20:34:13| 612.3|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 50.03 MB
+2023-01-08 20:34:15| 613.5|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 60.04 MB
+2023-01-08 20:34:17| 615.8|  2.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 70.05 MB
+2023-01-08 20:34:19| 617.7|  1.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 80.06 MB
+2023-01-08 20:34:20| 619.3|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 90.07 MB
+2023-01-08 20:34:22| 620.8|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 100.07 MB
+2023-01-08 20:34:23| 622.2|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 110.08 MB
+2023-01-08 20:34:25| 623.7|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 120.09 MB
+2023-01-08 20:34:25| 624.5|  0.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP Download: received 124.74 MB
+2023-01-08 20:34:25| 624.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [29]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 130797054 bytes, DNS lookup time: 48 ms, total transfer time: 20576 ms
+2023-01-08 20:34:25| 624.5|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:34:25| 624.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:34:25| 624.6|  0.1|INFORM|Performing query against JPEG2000 dataset `T34UDA_20220626T095039_TCI_10m.jp2'
+2023-01-08 20:34:25| 624.6|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:34:25| 624.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:34:26| 624.6|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:34:26| 624.6|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:34:26| 624.6|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20220626T095039_TCI_10m.jp2'
+2023-01-08 20:34:26| 624.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_10[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:34:26| 624.6|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:34:30| 636.1| 11.5|INFORM|ResourceManager: Optimizing Memory Usage.  Please wait...
+2023-01-08 20:34:31| 636.8|  0.7|INFORM|FFS writer: Completed 27.98% of intermediate processing
+2023-01-08 20:34:36| 649.6| 12.8|INFORM|FFS writer: Completed 69.94% of intermediate processing
+2023-01-08 20:34:38| 657.3|  7.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:34:43| 667.7| 10.4|INFORM|FFS writer: Completed 6.48% of intermediate processing
+2023-01-08 20:34:48| 676.5|  8.8|INFORM|FFS writer: Completed 13.29% of intermediate processing
+2023-01-08 20:34:53| 685.2|  8.7|INFORM|FFS writer: Completed 19.97% of intermediate processing
+2023-01-08 20:34:58| 694.1|  8.9|INFORM|FFS writer: Completed 26.73% of intermediate processing
+2023-01-08 20:35:03| 703.2|  9.1|INFORM|FFS writer: Completed 33.68% of intermediate processing
+2023-01-08 20:35:08| 712.2|  9.0|INFORM|FFS writer: Completed 40.54% of intermediate processing
+2023-01-08 20:35:13| 721.4|  9.2|INFORM|FFS writer: Completed 47.27% of intermediate processing
+2023-01-08 20:35:18| 730.3|  8.9|INFORM|FFS writer: Completed 54.18% of intermediate processing
+2023-01-08 20:35:23| 738.9|  8.6|INFORM|FFS writer: Completed 61.21% of intermediate processing
+2023-01-08 20:35:28| 747.6|  8.7|INFORM|FFS writer: Completed 68.09% of intermediate processing
+2023-01-08 20:35:33| 756.1|  8.5|INFORM|FFS writer: Completed 74.79% of intermediate processing
+2023-01-08 20:35:38| 764.7|  8.6|INFORM|FFS writer: Completed 81.65% of intermediate processing
+2023-01-08 20:35:43| 773.7|  9.0|INFORM|FFS writer: Completed 88.49% of intermediate processing
+2023-01-08 20:35:48| 781.3|  7.6|INFORM|FFS writer: Completed 94.54% of intermediate processing
+2023-01-08 20:35:52| 787.5|  6.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:35:57| 795.8|  8.3|INFORM|FFS writer: Completed 6.16% of intermediate processing
+2023-01-08 20:36:02| 804.5|  8.7|INFORM|FFS writer: Completed 13.03% of intermediate processing
+2023-01-08 20:36:07| 813.1|  8.6|INFORM|FFS writer: Completed 19.74% of intermediate processing
+2023-01-08 20:36:12| 820.8|  7.7|INFORM|FFS writer: Completed 26.45% of intermediate processing
+2023-01-08 20:36:14| 823.6|  2.8|WARN  |Failed to free sufficient memory to reach the process usage limit. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2023-01-08 20:36:17| 828.3|  4.7|INFORM|FFS writer: Completed 32.17% of intermediate processing
+2023-01-08 20:36:22| 835.5|  7.2|INFORM|FFS writer: Completed 37.75% of intermediate processing
+2023-01-08 20:36:27| 843.5|  8.0|INFORM|FFS writer: Completed 44.31% of intermediate processing
+2023-01-08 20:36:32| 851.5|  8.0|INFORM|FFS writer: Completed 50.86% of intermediate processing
+2023-01-08 20:36:37| 858.5|  7.0|INFORM|FFS writer: Completed 55.46% of intermediate processing
+2023-01-08 20:36:42| 867.0|  8.5|INFORM|FFS writer: Completed 62.23% of intermediate processing
+2023-01-08 20:36:47| 875.6|  8.6|INFORM|FFS writer: Completed 69.13% of intermediate processing
+2023-01-08 20:36:52| 883.8|  8.2|INFORM|FFS writer: Completed 75.55% of intermediate processing
+2023-01-08 20:36:57| 892.5|  8.7|INFORM|FFS writer: Completed 82.39% of intermediate processing
+2023-01-08 20:37:02| 901.6|  9.1|INFORM|FFS writer: Completed 89.44% of intermediate processing
+2023-01-08 20:37:07| 910.3|  8.7|INFORM|FFS writer: Completed 96.54% of intermediate processing
+2023-01-08 20:37:09| 913.8|  3.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|SentinelDownloader_FeatureReader_2 (QueryFactory): 5 input initiators processed
+2023-01-08 20:37:09| 913.8|  0.0|STATS |SentinelDownloader_Junction_2 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|SentinelDownloader_FeatureHolder (SortFactory): Starting sorting 4 feature(s)
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|SentinelDownloader_FeatureHolder (SortFactory): Done sorting 4 feature(s)
+2023-01-08 20:37:09| 913.8|  0.0|FATAL |The below feature caused the translation to be terminated
+2023-01-08 20:37:09| 913.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\bazy_danych_2\cwiczenie9\fme_zadanie2_log.ffs'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Feature Type: `SentinelDownloader_AttributeManager_OUTPUT'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Attribute(string: UTF-8): `_error' has value `HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Attribute(string: UTF-8): `fme_feature_type' has value `Powiaty'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Attribute(string: UTF-8): `fme_rejection_code' has value `NO_RESULT'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Attribute(string: UTF-8): `fme_type' has value `fme_no_geom'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Coordinate System: `'
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Geometry Type: IFMENull
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|Coordinate Dimension: 2
+2023-01-08 20:37:09| 913.8|  0.0|INFORM|===========================================================================
+2023-01-08 20:37:09| 913.8|  0.0|ERROR |SentinelDownloader_Terminator_4 (TestFactory): SentinelDownloader_Terminator_4: Termination Message: 'Error at requesting the REST API.
+HTTP Code: 
+Error: HTTP: The URL '('GRANULE')/Nodes?$format=json' could not be parsed'
+2023-01-08 20:37:15| 915.6|  1.8|INFORM|Translation FAILED with 10 error(s) and 16 warning(s) (0 feature(s) output)
+2023-01-08 20:37:15| 915.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\bazy_danych_2\cwiczenie9\fme_zadanie2_log.ffs'
+2023-01-08 20:37:15| 915.6|  0.0|INFORM|FME Session Duration: 9 minutes 4.2 seconds. (CPU: 758.7s user, 156.9s system)
+2023-01-08 20:37:15| 915.6|  0.0|INFORM|END - ProcessID: 13620, peak process memory usage: 4073484 kB, current process memory usage: 1426528 kB
